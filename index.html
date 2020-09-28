@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>gym & fitness</title>
+<link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <li><a href="#"onclick="toggleMenu();">Home</a></li>
+                <li><a href="#"onclick="toggleMenu();">About</a></li>
+                <li><a href="#"onclick="toggleMenu();">Training</a></li>
+                <li><a href="#"onclick="toggleMenu();">Team</a></li>
+                <li><a href="#"onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </div>
+        <section class="banner">
+            <header>
+                <h2 class="logo">Your Logo</h2>
+                <div class="toggle" onclick="toggleMenu();"></div>
+            </header>
+            <video src="./imge/production ID_4753946.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+            <h2>Be Stronger</h2>
+            <h3>Never give up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempora eveniet
+            ab praesentium accusantium, cum ipsa culpa, perferendis odit facilis debitis repudiandae distinctio
+             saepe porro minima voluptate sint, voluptatibus earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Animi, excepturi esse? Voluptates nisi, laudantium ratione, quas ullam vel aut quasi rerum earum dolor explicabo 
+             doloremque vero debitis rem, eligendi molestiae.
+            </p>
+            <a href="#">join us</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./imge/facebook.png"></a></li>
+            <li><a href="#"><img src="./imge/twitter.png"></a></li>
+            <li><a href="#"><img src="./imge/instagram.png"></a></li>
+        </ul>
+        </section>
+        <script type="text/javascript">
+        function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle') 
+        var banner = document.querySelector('.banner')
+        menuToggle.classList.toggle('active')
+        banner.classList.toggle('active')
+        }
+        
+        </script>
+    </body>
+</html>
